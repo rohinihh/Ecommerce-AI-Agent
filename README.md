@@ -2,9 +2,9 @@
 
 An AI-powered data analysis agent that converts natural language questions into SQL queries using your real Excel e-commerce data.
 
-## 📁 VS Code Setup (Download These 5 Files)
+## 📁Use VS Code for Setup 
 
-**Essential files for VS Code:**
+**Download all the files for:**
 ```
 app.py              # Main application (loads your Excel data automatically)
 run.py              # Simple runner script  
@@ -36,9 +36,9 @@ GEMINI_API_KEY=your_google_gemini_api_key_here
 Create a `data/` folder and add your Excel files:
 ```
 data/
-├── Product-Level Total Sales and Metrics (mapped)_1753162181292.xlsx
-├── Product-Level Ad Sales and Metrics (mapped)_1753162181290.xlsx  
-└── Product-Level Eligibility Table (mapped)_1753162181291.xlsx
+├── Product-Level Total Sales and Metrics (mapped).xlsx
+├── Product-Level Ad Sales and Metrics (mapped).xlsx  
+└── Product-Level Eligibility Table (mapped).xlsx
 ```
 
 ### Step 5: Run Application
@@ -51,11 +51,7 @@ Visit: http://localhost:5000
 
 ## 📊 Data Loading
 
-The app automatically loads your real Excel data:
-- **702 sales records** from Total Sales Excel
-- **3,696 ad records** from Ad Sales Excel  
-- **337 product records** from Eligibility Excel
-- **Total Sales: 1,004,904.56** (your actual data)
+The app automatically loads your real Excel data.
 
 ## 💬 Ask Your Data Questions
 
@@ -102,13 +98,6 @@ python app.py
 ## 🔑 Required API Key
 
 Get your free Gemini API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
-
-## ✅ Current Status
-
-- Excel data loading: **Working** ✅
-- Database: **8,779 records loaded** ✅ 
-- AI queries: **Responding with real data** ✅
-- Web interface: **Ready** ✅
 
 ## 🆘 Troubleshooting
 
